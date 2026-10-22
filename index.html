@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumora 개인정보 처리방침 / Privacy Policy</title>
+<style>
+:root{--bg:#fff8f1;--ink:#3a2e2a;--pink:#ff6f96;--line:#ecc9bd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,"Noto Sans KR","Apple SD Gothic Neo",sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+main{max-width:760px;margin:0 auto;padding:0 18px 64px}
+.bar{position:sticky;top:0;background:var(--bg);padding:12px 0;display:flex;justify-content:flex-end;gap:6px;z-index:2}
+.bar button{min-height:44px;padding:0 18px;border-radius:999px;border:1.5px solid var(--line);background:#fff;color:var(--ink);font-weight:800;font-size:15px}
+.bar button[aria-pressed=true]{background:var(--pink);border-color:var(--pink);color:#fff}
+h1{font-size:1.45rem;line-height:1.35}h2{font-size:1.12rem;margin-top:2rem;padding-top:.6rem;border-top:1px solid var(--line)}
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:520px}
+th,td{border:1px solid var(--line);padding:8px;vertical-align:top;text-align:left}th{background:#fff}
+a{color:#d14b78}[hidden]{display:none}
+</style></head><body><main>
+<div class="bar"><button id="b-ko" aria-pressed="true" onclick="setLang('ko')">한국어</button><button id="b-en" aria-pressed="false" onclick="setLang('en')">English</button></div>
+<article id="ko" lang="ko"><h1>루모라 - 점 잇기 퍼즐 개인정보 처리방침</h1>
+<p><a href="이하" title="개발자">개발자 이름</a>은 「개인정보 보호법」을 지키며, 루모라 - 점 잇기 퍼즐(이하 "앱") 이용자의 개인정보를 다음과 같이 처리해요.</p>
+<ul>
+<li>시행일: 2026년 10월 22일</li>
+</ul>
+<h2>1. 처리하는 개인정보 항목과 목적</h2>
+<p>앱에는 회원가입과 로그인이 없어요. 개발자는 서버를 운영하지 않으며, 이용자 정보를 개발자에게 보내지 않아요.</p>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>항목</th>
+<th>목적</th>
+<th>처리 위치</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>게임 진행</td>
+<td>레벨, 점수, 빛조각, 보유 아이템, 설정, 직접 만든 점·선 이미지, 게임 이벤트 기록(최대 80개)</td>
+<td>게임 기능 제공</td>
+<td>이용자 기기에만 저장</td>
+</tr>
+<tr>
+<td>광고</td>
+<td>광고 ID(AAID), 앱 세트 ID, IP 주소, 광고 조회·탭 기록, 진단 정보, 광고 동의 상태</td>
+<td>맞춤형·비맞춤형 광고 표시, 광고 성과 측정, 부정 방지</td>
+<td>Google AdMob</td>
+</tr>
+<tr>
+<td>인앱 결제</td>
+<td>구매 내역, 주문 정보(Google이 처리)</td>
+<td>광고 제거(₩3,300)·커스텀 이용권(₩1,900) 구매와 복원</td>
+<td>Google Play</td>
+</tr>
+<tr>
+<td>날씨 이야기(선택)</td>
+<td>대략적인 위치(소수점 첫째 자리로 반올림한 위도·경도, 약 11km 단위)</td>
+<td>현재 날씨에 맞는 행성 대사</td>
+<td>이용자 기기, Open-Meteo</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>사진:</strong> 커스텀 점·선에 쓰는 사진은 기기 안에서 256×256 이미지로 잘라 기기 저장소(IndexedDB)에만 저장해요. 밖으로 보내지 않아요.</li>
+<li><strong>분석·오류 보고:</strong> 앱에는 분석 도구, 오류 보고(크래시 리포트) 도구, Firebase가 없어요.</li>
+<li><strong>결제 정보:</strong> 카드 번호 같은 결제 정보는 Google Play가 처리하며, 개발자는 받지 않아요.</li>
+</ul>
+<h2>2. 위치 정보</h2>
+<ul>
+<li>'날씨 이야기'는 선택 기능이고 처음에는 꺼져 있어요. 켤 때 기기가 대략적인 위치 권한을 물어봐요. 정밀 위치(GPS)는 요청하지 않아요.</li>
+<li>좌표는 약 11km 단위로 반올림한 뒤 기기에 저장하고, Open-Meteo(api.open-meteo.com)에만 보내요. 개발자에게는 보내지 않아요.</li>
+<li>날씨 결과는 기기에 45분 동안 임시 저장해요.</li>
+<li>기능을 끄거나 기기 설정에서 위치 권한을 거두면 더 이상 위치를 쓰지 않아요.</li>
+</ul>
+<h2>3. 보유 기간과 파기</h2>
+<ul>
+<li><strong>기기 안의 정보:</strong> 앱을 삭제하거나 기기 설정에서 앱 데이터를 지우면 바로 파기돼요. 개발자는 사본을 갖고 있지 않아요.</li>
+<li><strong>날씨 정보:</strong> 45분 뒤 새 정보로 바뀌어요.</li>
+<li><strong>Google, Open-Meteo가 처리하는 정보:</strong> 각 업체의 방침에 따라 보관하고 파기해요.</li>
+</ul>
+<h2>4. 제3자 제공과 처리 위탁</h2>
+<p>개발자는 개인정보를 판매하지 않아요. 앱은 다음 업체의 서비스를 쓰며, 이 과정에서 정보가 각 업체로 직접 전송돼요.</p>
+<table>
+<thead>
+<tr>
+<th>업체</th>
+<th>하는 일</th>
+<th>처리 정보</th>
+<th>방침</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google LLC (AdMob, 사용자 메시지 플랫폼)</td>
+<td>광고 표시, 광고 동의 관리</td>
+<td>1번 표의 광고 항목</td>
+<td>https://policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>Google LLC (Google Play 결제)</td>
+<td>인앱 결제</td>
+<td>구매·주문 정보</td>
+<td>https://policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>Open-Meteo (오스트리아)</td>
+<td>날씨 조회(날씨 이야기를 켰을 때만)</td>
+<td>반올림한 좌표, IP 주소</td>
+<td>https://open-meteo.com/en/terms</td>
+</tr>
+</tbody>
+</table>
+<h2>5. 개인정보의 국외 이전</h2>
+<table>
+<thead>
+<tr>
+<th>받는 곳</th>
+<th>국가</th>
+<th>항목</th>
+<th>시기와 방법</th>
+<th>목적</th>
+<th>보유 기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google LLC</td>
+<td>미국 등</td>
+<td>광고 항목, 구매 정보</td>
+<td>광고 표시·결제 때 암호화된 네트워크로 전송</td>
+<td>광고, 결제</td>
+<td>Google 방침에 따름</td>
+</tr>
+<tr>
+<td>Open-Meteo</td>
+<td>오스트리아(EU)</td>
+<td>반올림한 좌표, IP 주소</td>
+<td>날씨 이야기를 켰을 때 최대 45분마다 전송</td>
+<td>날씨 조회</td>
+<td>Open-Meteo 방침에 따름</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>국외 이전을 원하지 않으면 날씨 이야기를 끄고, 광고 동의를 거부하거나 광고 제거를 구매할 수 있어요.</li>
+<li>다만 광고 표시와 결제 자체에는 Google 서비스가 필요해요.</li>
+</ul>
+<h2>6. 맞춤형 광고와 광고 ID</h2>
+<ul>
+<li>앱은 Google AdMob 광고(전면, 보상형)를 보여 줘요. 처음 실행할 때 Google 사용자 메시지 플랫폼(UMP)으로 동의를 받으며, 동의 여부에 따라 맞춤형 또는 비맞춤형 광고가 나와요.</li>
+<li>동의는 앱의 '광고 개인정보 설정'에서 언제든 바꿀 수 있어요.</li>
+<li>광고 ID는 기기 설정 &gt; Google &gt; 광고에서 재설정하거나 삭제할 수 있어요.</li>
+</ul>
+<h2>7. 아동의 개인정보</h2>
+<ul>
+<li>이 앱은 아동을 대상으로 하지 않아요. 만 14세 미만 이용자는 부모님 등 법정대리인의 동의를 받아 이용해 주세요.</li>
+<li>앱에는 계정이 없고, 정보는 기기에만 저장돼요. 다만 광고 ID 등 광고 정보와, 날씨 이야기를 켰을 때의 대략적인 위치는 예외로 밖에 전송돼요.</li>
+<li>법정대리인은 다음과 같이 할 수 있어요.</li>
+<li>[이메일]로 아동의 정보에 대해 문의하거나 삭제를 요청할 수 있어요.</li>
+<li>날씨 이야기를 끌 수 있어요.</li>
+<li>기기 설정에서 광고 ID를 재설정하거나 삭제할 수 있어요.</li>
+<li>만 14세 미만 아동의 정보가 동의 없이 처리된 사실을 알게 되면 바로 삭제해요.</li>
+</ul>
+<h2>8. 이용자와 법정대리인의 권리와 행사 방법</h2>
+<ul>
+<li>이용자와 법정대리인은 개인정보 열람, 정정, 삭제, 처리 정지를 요청할 수 있어요.</li>
+<li><strong>요청 방법:</strong> [이메일]로 요청해 주세요. 받은 날부터 10일 안에 조치하고 결과를 알려 드려요.</li>
+<li><strong>기기 안의 정보:</strong> 앱 데이터를 지우거나 앱을 삭제하면 바로 지울 수 있어요.</li>
+<li><strong>Google이 보관하는 광고·결제 정보:</strong> Google 계정 설정(myaccount.google.com)에서 관리할 수 있어요.</li>
+</ul>
+<h2>9. 안전성 확보 조치</h2>
+<ul>
+<li>앱이 보내는 통신은 모두 암호화(HTTPS/TLS)해요.</li>
+<li>게임 정보는 기기에만 두며 밖으로 보내지 않아요.</li>
+</ul>
+<h2>10. 개인정보 보호책임자</h2>
+<ul>
+<li><strong>성명:</strong> [개발자 이름]</li>
+<li><strong>연락처:</strong> [이메일]</li>
+</ul>
+<p>개인정보 침해에 대한 상담이나 신고는 다음 기관에도 할 수 있어요.</p>
+<ul>
+<li>개인정보침해신고센터(국번 없이 118, privacy.kisa.or.kr)</li>
+<li>개인정보분쟁조정위원회(1833-6972, www.kopico.go.kr)</li>
+<li>대검찰청(국번 없이 1301), 경찰청(국번 없이 182)</li>
+</ul>
+<h2>11. 처리방침의 변경</h2>
+<ul>
+<li>서버 동기화나 결제 확인 서버처럼 정보를 개발자에게 보내는 기능이 생기면, 시작하기 전에 이 방침을 고쳐 알려 드려요.</li>
+<li>바뀐 내용은 이 페이지에 시행일과 함께 알려 드려요.</li>
+</ul></article>
+<article id="en" lang="en" hidden><h1>Lumora: Connect the Dots — Privacy Policy</h1>
+<p><strong>Effective date:</strong> October 22, 2026<br />
+<strong>Developer:</strong> [개발자 이름] · <strong>Contact:</strong> [이메일]</p>
+<p>This policy explains what data Lumora handles, why, who receives it, and the choices you have.</p>
+<h2>1. Data the app handles</h2>
+<p>The app has no accounts or sign-in. We do not run a server, and the app does not send your data to us.</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Purpose</th>
+<th>Where it goes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Game data:</strong> level, scores, sparks, owned items, settings, dots and lines you create, and a local log of up to 80 game events</td>
+<td>Running the game</td>
+<td>Stays on your device</td>
+</tr>
+<tr>
+<td><strong>Advertising data:</strong> advertising ID, app set ID, IP address, ad views and taps, diagnostics, ad consent status</td>
+<td>Showing personalized or non-personalized ads, ad measurement, fraud prevention</td>
+<td>Google AdMob</td>
+</tr>
+<tr>
+<td><strong>Purchases:</strong> purchase history and order details, handled by Google</td>
+<td>Buying and restoring ad removal (₩3,300) and the Custom pass (₩1,900)</td>
+<td>Google Play</td>
+</tr>
+<tr>
+<td><strong>Weather talk (optional):</strong> approximate location, latitude and longitude rounded to 0.1° (about 11 km)</td>
+<td>Planet lines that match your current weather</td>
+<td>Your device, Open-Meteo</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Photos:</strong> a photo you use for a custom dot or line is cropped to a 256×256 image and stored only on your device (IndexedDB). It is never uploaded.</li>
+<li><strong>No tracking tools:</strong> the app contains no analytics, crash-reporting or Firebase SDK.</li>
+<li><strong>Payment details:</strong> card numbers and other payment details are handled by Google Play. We never receive them.</li>
+</ul>
+<h2>2. Location</h2>
+<ul>
+<li>Weather talk is <strong>optional and off by default</strong>. When you turn it on, Android asks for approximate location permission. The app never requests precise (GPS) location.</li>
+<li>Coordinates are rounded to about 11 km, stored on your device, and sent only to Open-Meteo (api.open-meteo.com), never to us.</li>
+<li>The weather result is cached on your device for 45 minutes.</li>
+<li>Turn the feature off, or revoke the permission in Android settings, to stop location use.</li>
+</ul>
+<h2>3. Ads and the advertising ID</h2>
+<ul>
+<li>The app shows Google AdMob interstitial and rewarded ads.</li>
+<li>On first launch, Google's User Messaging Platform (UMP) asks for your consent where required. Depending on your choice, you see personalized or non-personalized ads.</li>
+<li>You can change your choice at any time in the app's ad privacy settings.</li>
+<li>You can reset or delete your advertising ID in Android Settings &gt; Google &gt; Ads.</li>
+</ul>
+<h2>4. Sharing and service providers</h2>
+<p>We do not sell personal data. The data described above goes directly from the app to these providers:</p>
+<ul>
+<li><strong>Google LLC:</strong> AdMob and UMP, for ads and consent. See <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</li>
+<li><strong>Google LLC:</strong> Google Play Billing, for purchases.</li>
+<li><strong>Open-Meteo (Austria):</strong> weather, only when Weather talk is on. See the <a href="https://open-meteo.com/en/terms">Open-Meteo terms</a>.</li>
+</ul>
+<p>These providers may process data outside your country, including in the United States and the EU.</p>
+<h2>5. Retention and deletion</h2>
+<ul>
+<li><strong>On-device data:</strong> deleted when you clear the app's data or uninstall the app. We keep no copy.</li>
+<li><strong>Weather cache:</strong> replaced every 45 minutes.</li>
+<li><strong>Data held by Google or Open-Meteo:</strong> kept under their own policies. Google data can be managed at myaccount.google.com.</li>
+<li><strong>Questions or deletion requests:</strong> email [이메일]. We reply within 10 days.</li>
+</ul>
+<h2>6. Children</h2>
+<ul>
+<li>Lumora is not directed at children under 13. Users under 14 in Korea should use it with a parent or guardian's consent.</li>
+<li>The app has no accounts and keeps data on the device. The exceptions are the advertising data sent to AdMob and, only if Weather talk is on, approximate location sent to Open-Meteo.</li>
+<li>A parent or guardian can:</li>
+<li>email [이메일] to ask about their child's data or request its deletion;</li>
+<li>turn off Weather talk;</li>
+<li>reset or delete the advertising ID in device settings.</li>
+<li>If we learn that we have processed a child's data without the required consent, we will delete it.</li>
+</ul>
+<h2>7. Security</h2>
+<p>All network traffic from the app is encrypted (HTTPS/TLS), and game data stays on your device.</p>
+<h2>8. Changes</h2>
+<p>If we add a feature that sends data to us, such as cloud sync or server purchase verification, we will update this policy before it launches. Changes are posted on this page with a new effective date.</p>
+<h2>9. Contact</h2>
+<p>[개발자 이름] · [이메일]</p></article>
+</main>
+<script>
+document.querySelectorAll('table').forEach(t=>{const w=document.createElement('div');w.className='tbl';t.parentNode.insertBefore(w,t);w.appendChild(t);});
+function setLang(l){for(const k of ['ko','en']){document.getElementById(k).hidden=k!==l;document.getElementById('b-'+k).setAttribute('aria-pressed',String(k===l));}document.documentElement.lang=l;history.replaceState(null,'','#'+l);}
+if(location.hash==='#en'||(!location.hash&&!(navigator.language||'').startsWith('ko')))setLang('en');
+</script></body></html>
